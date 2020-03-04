@@ -69,10 +69,10 @@ void GameState_Map::sUserInput()
                 case sf::Keyboard::S: break;
                 case sf::Keyboard::D: m_view.zoom(1.2); break;
                 case sf::Keyboard::G: m_drawGrid = !m_drawGrid; break;
-                case sf::Keyboard::B: m_drawBuildTiles = !m_drawBuildTiles;
-                case sf::Keyboard::F: m_drawField = !m_drawField;
-                case sf::Keyboard::V: m_drawDistance = !m_drawDistance;
-                case sf::Keyboard::T: m_drawWalkTiles = !m_drawWalkTiles;
+                case sf::Keyboard::B: m_drawBuildTiles = !m_drawBuildTiles; break;
+                case sf::Keyboard::F: m_drawField = !m_drawField; break;
+                case sf::Keyboard::V: m_drawDistance = !m_drawDistance; break;
+                case sf::Keyboard::T: m_drawWalkTiles = !m_drawWalkTiles; break;
                 default: break;
             }
         }
