@@ -73,18 +73,12 @@ void GameState_Map::sUserInput()
                 case sf::Keyboard::F: m_drawField = !m_drawField;
                 case sf::Keyboard::V: m_drawDistance = !m_drawDistance;
                 case sf::Keyboard::T: m_drawWalkTiles = !m_drawWalkTiles;
+                default: break;
             }
         }
 
         if (event.type == sf::Event::KeyReleased)
         {
-            switch (event.key.code)
-            {
-            case sf::Keyboard::W: break;
-            case sf::Keyboard::A: break;
-            case sf::Keyboard::S: break;
-            case sf::Keyboard::D: break;
-            }
         }
 
         if (event.type == sf::Event::MouseButtonPressed)
@@ -311,7 +305,7 @@ void GameState_Map::sRender()
                     // for each of the directions in the direction vector field
                     for (size_t d=0; d < m_field.getNumDirections(x,y); d++)
                     {
-                        auto& dir = m_field.getDirection(x, y, d);
+                        auto dir = m_field.getDirection(x, y, d);
 
                         // determine the start and end points of the direction vector
                         int cx = (int)(x * m_tileSize + m_tileSize / 2);

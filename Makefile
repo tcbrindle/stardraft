@@ -11,7 +11,6 @@
 #   $ cd stardraft/bin
 #   $ make -C .. -j 8
 #   $ ./stardraft
-
 CC=g++
 
 # C++ compilation flags, be sure it's set to C++17 and optimized
