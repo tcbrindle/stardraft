@@ -4,5 +4,5 @@
 
 StarDraft is a small, efficient C++ library intended to make the following tasks as simple and enjoyable as possible:
 * Visualizing existing Starcraft maps with a fluid, intuitive interface
-* Testing your map analysis / path-finding software in real-time
-* Real-time editing of maps for debugging and algorithm testing
+* Testing and comparing map analysis / path-finding software in real-time
+* Real-time editing of maps for debugging and testing of algorithms
