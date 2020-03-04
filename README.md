@@ -1,5 +1,5 @@
 # StarDraft: StarCraft Map Visualization
-# Demo Video https://streamable.com/dlm83
+**Demo Video https://streamable.com/dlm83**
 
     Draft: definition - "A preliminary sketch, outline, or version"
 
