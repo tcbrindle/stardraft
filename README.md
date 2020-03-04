@@ -9,6 +9,6 @@
 * Implementing video-game related assignments / projects for programming classes
 
 This project provides the following features for accomplishing this task:
-* An (SFML)[https://www.sfml-dev.org/]-based GUI for panning, zooming, and interacting with maps
+* An [SFML](https://www.sfml-dev.org/)-based GUI for panning, zooming, and interacting with maps
 * An intuitive ASCII-based map format that is easily human readable in any text editor
 * An easy to use open source framework for implementing your own map analysis / vis tools
