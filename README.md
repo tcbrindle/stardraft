@@ -1,4 +1,4 @@
-# StarDraft: StarCraft Map Visualization
+# StarDraft: StarCraft Map Visualization Tool
 
     Draft: definition - "A preliminary sketch, outline, or version"
     
