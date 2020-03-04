@@ -19,7 +19,8 @@ void GameState_Menu::init(const std::string & menuConfig)
     for(auto& p: std::filesystem::directory_iterator("maps"))
     {
         std::stringstream ss;
-        ss << ((num < 10) ? " " : "") << (num++) << ") " << p.path().string();
+        ss << ((num < 10) ? " " : "") << (num) << ") " << p.path().string();
+        num += 1;
 
         m_menuStrings.push_back(ss.str());
         m_levelPaths.push_back(p.path().string());
@@ -73,6 +74,7 @@ void GameState_Menu::sUserInput()
                     m_game.pushState(std::make_shared<GameState_Map>(m_game, m_levelPaths[m_selectedMenuIndex]));
                     break; 
                 }
+                default: break;
             }
         }
     }
