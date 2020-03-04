@@ -7,3 +7,8 @@
 * Testing and comparing map analysis / path-finding software in real-time
 * Real-time editing of maps for debugging and testing of algorithms
 * Implementing video-game related assignments / projects for programming classes
+
+This project provides the following features for accomplishing this task:
+* An SFML-based GUI for panning, zooming, and interacting with maps
+* An intuitive ASCII-based map format that is easily human readable in any text editor
+* An easy to use open source framework for implementing your own map analysis / vis tools
