@@ -13,3 +13,5 @@
 * An intuitive ASCII-based map format that is easily human readable in any text editor
 * An easy to use open source framework for implementing your own map analysis / vis tools
 * Cross-platform C++ code that will compile and run in Windows, Linux, or Mac OSX
+
+Installation instructions are available on the [StarDraft Wiki](https://github.com/davechurchill/stardraft/wiki)
