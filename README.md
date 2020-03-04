@@ -1,5 +1,4 @@
-# StarDraft
-StarCraft Map Visualization
+# StarDraft: StarCraft Map Visualization
 
 **Draft**: "A preliminary sketch, outline, or version"
 
