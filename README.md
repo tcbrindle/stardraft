@@ -15,3 +15,5 @@
 * Cross-platform C++ code that will compile and run in Windows, Linux, or Mac OSX
 
 Installation instructions and GUI controls are available on the [StarDraft Wiki](https://github.com/davechurchill/stardraft/wiki)
+
+<div style="width: 100%; height: 0px; position: relative; padding-bottom: 56.250%;"><iframe src="https://streamable.com/s/etauv/itjifs" frameborder="0" width="100%" height="100%" allowfullscreen style="width: 100%; height: 100%; position: absolute;"></iframe></div>
