@@ -1,6 +1,6 @@
 # StarDraft: StarCraft Map Visualization
 
-    **Draft**: Definition - "A preliminary sketch, outline, or version"
+    Draft: Definition - "A preliminary sketch, outline, or version"
 
 ***StarDraft*** is a small, efficient C++ library intended to make the following tasks as simple and enjoyable as possible:
 * Visualizing existing Starcraft maps with a fluid, intuitive interface
