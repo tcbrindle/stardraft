@@ -27,9 +27,8 @@ INCLUDES=-I./src
 SRC_STARDRAFT=$(wildcard src/*.cpp) 
 OBJ_STARDRAFT=$(SRC_STARDRAFT:.cpp=.o)
 
- 
 # all of these targets will be made if you just type make
-all:spardraft
+all:stardraft
 
 # define the main executable requirements / command
 stardraft:$(OBJ_STARDRAFT) Makefile
@@ -39,4 +38,4 @@ stardraft:$(OBJ_STARDRAFT) Makefile
 	$(CC) -c $(CFLAGS) $(INCLUDES) $< -o $@
 
 clean:
-	rm -f $(OBJ_ENGINE) ./bin/stardraft
+	rm -f $(OBJ_STARDRAFT) ./bin/stardraft
