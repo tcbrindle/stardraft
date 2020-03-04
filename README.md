@@ -1,4 +1,4 @@
 # StarDraft: StarCraft Map Visualization
 
-**Draft**: "A preliminary sketch, outline, or version"
+**Draft**: Definition - "A preliminary sketch, outline, or version"
 
