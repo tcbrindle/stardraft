@@ -12,7 +12,7 @@
 
 ***StarDraft*** provides the following features for accomplishing this task:
 * An [SFML](https://www.sfml-dev.org/)-based GUI for panning, zooming, and interacting with maps
-* An intuitive ASCII-based map format that is easily human readable in any text editor
+* An intuitive ASCII-based [map format](https://github.com/davechurchill/stardraft/wiki/Map-File-Syntax) that is easily human readable in any text editor
 * An easy to use open source framework for implementing your own map analysis / vis tools
 * Cross-platform C++ code that will compile and run in Windows, Linux, or Mac OSX
 
